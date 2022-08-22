@@ -13,4 +13,4 @@ def hello_world(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello Azeez this for slack integration Azeez3!!!'
+        return f'Hello Azeez this for slack integration of only  build success !!!'
